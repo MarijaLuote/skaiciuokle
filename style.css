@@ -1,0 +1,96 @@
+body {
+    background-color: honeydew;
+}
+
+.all {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    border: 3px solid green;
+    max-width: 40%;
+    padding: 20px 0 0 30px;
+    background-color: cornsilk;
+}
+
+h2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.calculator {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.calculator {
+    font-size: 20px;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.calculate {
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    outline: none;
+}
+
+.newCalculation {
+    padding: 5px 18px 5px 18px;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    margin-left: 30px;
+}
+
+.buttons {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.distance {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.outlay {
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.price {
+    margin-left: 60px;
+    margin-right: 5px;
+}

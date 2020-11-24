@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+    <title>SKAIČIUOKLĖ</title>
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Playfair+Display:wght@500;600&family=Work+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <h2>KŪRO SKAIČIUOKLĖ</h2>
+    <section class="all">
+        <div class="calculator">
+            <form>
+                <label for="distance">Kelionės atstumas:</label>
+                <input type="number" class="distance" step="0.01" min="0.01">
+                <label for="distance">km</label><br><br>
+                <label for="outlay">Degalų sąnaudos:</label>
+                <input type="number" class="outlay" step="0.01" min="0.01">
+                <label for="outlay">l/100 km</label><br><br>
+                <label for="price">Degalų kaina:</label>
+                <input type="number" class="price" step="0.01" min="0.01">
+                <label for="price">EUR</label><br><br>
+            </form>
+            <div class="calculation">
+                <div class="buttons">
+                    <button class="calculate">Skaičiuoti</button><br><br>
+                    <button class="newCalculation">Iš naujo</button>
+                </div>
+                <div class="one">
+                    <h3>Kelionei sunaudota kuro (litrai):</h3>
+                    <div class="spentFuel">______</div>
+                </div>
+                <div class="two">
+                    <h3>Kelionės kuro kaina (EUR):</h3>
+                    <div class="fuelPrice">______</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
